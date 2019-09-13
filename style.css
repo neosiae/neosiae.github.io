@@ -7,15 +7,19 @@ html {
   box-sizing: inherit;
 }
 
-html, body, main {
-  height: 100%;
-}
-
 body {
   margin: 0;
 }
 
-h1, p {
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h1, h2, p {
   margin: 0;
 }
 
@@ -25,7 +29,7 @@ ul {
   list-style-type: none;
 }
 
-ul li {
+main ul li {
   display: inline-block;
 }
 
@@ -42,40 +46,46 @@ a:focus {
   color: rgb(36, 36, 255);
 }
 
-main {
+.wrapper {
   max-width: 1024px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding-left: 16px;
   padding-right: 16px;
+  padding-top: 256px;
+  padding-bottom: 16px;
 }
 
-main h1 {
-  font-size: 40px;
-}
-
-main p {
+.intro p {
   font-size: 24px;
   font-weight: bold;
   margin-top: 20px;
 }
 
-main ul {
+.intro ul {
   font-size: 24px;
   font-weight: bold;
   margin-top: 20px;
 }
 
-.bottom {
-  height: 20%;
-  width: 100%;
-  background-color: #000;
+.intro ul li {
+  margin-right: 16px;
+}
+
+.projects h2 {
+  margin-top: 64px;
+}
+
+.projects ul {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(256px,1fr))
 }
 
 @media (min-width: 768px) {
-  main h1 {
+  h1 {
     font-size: 80px;
   }
 }

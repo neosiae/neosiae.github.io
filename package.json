@@ -1,0 +1,22 @@
+{
+  "name": "neosiae-website",
+  "version": "1.0.0",
+  "description": "neosiae in cyberspace",
+  "scripts": {
+    "build": "node build.js",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neosiae/neosiae.github.io.git"
+  },
+  "author": "Denis Kotlica <neosiae@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neosiae/neosiae.github.io/issues"
+  },
+  "homepage": "https://github.com/neosiae/neosiae.github.io#readme",
+  "devDependencies": {
+    "standard": "^14.2.0"
+  }
+}

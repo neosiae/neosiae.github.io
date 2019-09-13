@@ -1,0 +1,26 @@
+[
+  {
+    "name": "memoria",
+    "url": "https://neosiae.github.io/memoria/"
+  },
+  {
+    "name": "depsjs",
+    "url": "https://github.com/neosiae/depsjs"
+  },
+  {
+    "name": "react-aria-offcanvas",
+    "url": "https://github.com/neosiae/react-aria-offcanvas"
+  },
+  {
+    "name": "map-to-localstorage",
+    "url": "https://github.com/neosiae/map-to-localstorage"
+  },
+  {
+    "name": "run-event-handler-once",
+    "url": "https://github.com/neosiae/run-event-handler-once"
+  },
+  {
+    "name": "string-to-readable-url",
+    "url": "https://github.com/neosiae/string-to-readable-url"
+  }
+]
