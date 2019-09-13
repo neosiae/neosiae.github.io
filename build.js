@@ -3,7 +3,9 @@ const path = require('path')
 const projects = require('./content/projects.json')
 
 // Homepage
-const indexTemplate = fs.readFileSync(path.join(__dirname, 'templates/index.html'), { encoding: 'utf8' })
+const indexTemplate = fs.readFileSync(
+  path.join(__dirname, 'templates/index.html'), { encoding: 'utf8' }
+)
 
 const projectsMarkup = projects
   .map(project => `<li><a href="${project.url}">${project.name}</a></li>`)
