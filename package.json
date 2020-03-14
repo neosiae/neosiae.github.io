@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/neosiae/neosiae.github.io#readme",
   "devDependencies": {
-    "standard": "^14.2.0"
+    "standard": "^14.3.1"
   }
 }
